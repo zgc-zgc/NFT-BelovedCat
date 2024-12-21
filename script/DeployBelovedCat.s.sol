@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 import {BelovedCat} from "../src/BelovedCat.sol";
-import {Script} from "forge-std/Script.sol";
+import {Script, console2} from "forge-std/Script.sol";
 
 contract DeployBelovedCat is Script {
     BelovedCat public belovedCat;

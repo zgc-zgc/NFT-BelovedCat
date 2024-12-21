@@ -9,6 +9,7 @@ remappings = [
     "@solmate/=lib/solmate/src/",
     "@forge-std/=lib/forge-std/src/",
     "@openzeppelin/=lib/openzeppelin-contracts/",
+    "@foundry-devops/=lib/foundry-devops/",
 ]
 [fuzz]
 runs = 2

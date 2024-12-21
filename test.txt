@@ -1,0 +1,29 @@
+Compiling 43 files with Solc 0.8.28
+Solc 0.8.28 finished in 2.20s
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.28;"
+--> test/integration/Interactions.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 6 tests for test/unit/BelovedCatTest.t.sol:BelovedCatTest
+[PASS] test_changeBelovedCat_Fail_WhenCalledByNotOwner() (gas: 91067)
+[PASS] test_changeBelovedCat_Fail_WhenTokenIdDoesNotExist() (gas: 14748)
+[PASS] test_changeBelovedCat_Success_WhenCalledByOwner() (gas: 113239)
+[PASS] test_mintSpecficTokenId_Fail_WhenTokenIdInvalid() (gas: 70164)
+[PASS] test_mintSpecficTokenId_Success_WhenTokenIdVaild() (gas: 75569)
+[PASS] test_mint_success_whenCalled() (gas: 94877)
+Suite result: ok. 6 passed; 0 failed; 0 skipped; finished in 2.03ms (1.51ms CPU time)
+
+Ran 1 test suite in 10.93ms (2.03ms CPU time): 6 tests passed, 0 failed, 0 skipped (6 total tests)
+
+╭-------------------------------+----------------+----------------+---------------+---------------╮
+| File                          | % Lines        | % Statements   | % Branches    | % Funcs       |
++=================================================================================================+
+| script/DeployBelovedCat.s.sol | 100.00% (8/8)  | 100.00% (6/6)  | 100.00% (0/0) | 100.00% (2/2) |
+|-------------------------------+----------------+----------------+---------------+---------------|
+| src/BelovedCat.sol            | 48.78% (20/41) | 44.68% (21/47) | 36.36% (4/11) | 54.55% (6/11) |
+|-------------------------------+----------------+----------------+---------------+---------------|
+| Total                         | 57.14% (28/49) | 50.94% (27/53) | 36.36% (4/11) | 61.54% (8/13) |
+╰-------------------------------+----------------+----------------+---------------+---------------╯

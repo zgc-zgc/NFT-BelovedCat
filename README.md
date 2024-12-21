@@ -1,66 +1,27 @@
-## Foundry
+bubu
+data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgdmlld0JveD0iMCAwIDQwMCA0MDAiIHhtbG5z
+PSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogPHN0eWxlPg0KICAgLmNpcmNsZSB7IA0K
+ICAgICBmaWxsOiAjRkZGRkZGOw0KICAgICBzdHJva2U6ICMwMDAwMDA7DQogICAgIHN0cm9rZS13
+aWR0aDogMjsNCiAgIH0NCiAgIC50ZXh0IHsgDQogICAgIGZpbGw6ICMwMDAwMDA7DQogICAgIGZv
+bnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1zZXJpZjsNCiAgICAgZm9udC1zaXplOiA2NHB4Ow0KICAg
+ICBmb250LXdlaWdodDogYm9sZDsNCiAgIH0NCiA8L3N0eWxlPg0KIA0KIDwhLS0g55m96Imy5ZyG
+5ZyIIC0tPg0KIDxjaXJjbGUgY2xhc3M9ImNpcmNsZSIgY3g9IjIwMCIgY3k9IjIwMCIgcj0iMTgw
+Ii8+DQogDQogPCEtLSBCdSBCdSDmloflrZcgLS0+DQogPHRleHQgY2xhc3M9InRleHQiIHg9IjIw
+MCIgeT0iMjIwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5CdSBCdTwvdGV4dD4NCjwvc3ZnPg==
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+xiaohei
+data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgdmlld0JveD0iMCAwIDQwMCA0MDAiIHhtbG5z
+PSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogIDxzdHlsZT4NCiAgICAuY2lyY2xlIHsg
+DQogICAgICBmaWxsOiAjMDAwMDAwOyANCiAgICB9DQogICAgLnRleHQgeyANCiAgICAgIGZpbGw6
+ICNGRkZGRkY7DQogICAgICBmb250LWZhbWlseTogQXJpYWwsIHNhbnMtc2VyaWY7DQogICAgICBm
+b250LXNpemU6IDY0cHg7DQogICAgICBmb250LXdlaWdodDogYm9sZDsNCiAgICB9DQogIDwvc3R5
+bGU+DQogIA0KICA8IS0tIOm7keiJsuWchuWciCAtLT4NCiAgPGNpcmNsZSBjbGFzcz0iY2lyY2xl
+IiBjeD0iMjAwIiBjeT0iMjAwIiByPSIxODAiLz4NCiAgDQogIDwhLS0gWGlhbyBIZWkg5paH5a2X
+IC0tPg0KICA8dGV4dCBjbGFzcz0idGV4dCIgeD0iMjAwIiB5PSIyMjAiIHRleHQtYW5jaG9yPSJt
+aWRkbGUiPlhpYW8gSGVpPC90ZXh0Pg0KPC9zdmc+DQo=
 
-Foundry consists of:
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
-## Documentation
+[2571868] → new BelovedCat@0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9
+[1436575] → new BelovedCat@0x5FC8d32690cc91D4c39d9d3abcBD16989F875707
 
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
